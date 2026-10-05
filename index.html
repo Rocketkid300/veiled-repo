@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veiled — Sileo Repo</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 640px; margin: 0 auto; padding: 2rem 1.25rem 4rem;
+    line-height: 1.6; background: #fafafa; color: #1c1c1e;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #101014; color: #f2f2f7; }
+    .card { background: #1c1c22; border-color: #33333a; }
+    code { background: #26262c; color: #8ee6a8; }
+  }
+  h1 { font-size: 1.7rem; margin-bottom: .25rem; }
+  .pill {
+    display: inline-block; background: #34a853; color: #fff; font-size: .8rem;
+    padding: .15rem .6rem; border-radius: 999px; margin-bottom: 1rem;
+  }
+  .card { background: #fff; border: 1px solid #e5e5ea; border-radius: 14px; padding: 1.25rem 1.5rem; margin: 1rem 0; }
+  code { background: #f0f0f2; padding: .15rem .45rem; border-radius: 6px; font-size: .92em; word-break: break-all; }
+  a { color: #1a73e8; }
+  .btn {
+    display: inline-block; background: #1a73e8; color: #fff; text-decoration: none;
+    padding: .6rem 1.1rem; border-radius: 10px; font-weight: 600; margin-top: .4rem;
+  }
+  ol { padding-left: 1.25rem; }
+</style>
+</head>
+<body>
+  <h1>🔒 Veiled</h1>
+  <span class="pill">✓ Version 2.0.0</span>
+  <p>Hide any app from your Home Screen on <strong>Dopamine</strong> (rootless, iOS 15–16). Long-press an app and pick <strong>"Add to Veiled"</strong>. Your hidden apps live inside an app that looks and works like a <strong>Calculator</strong> — type your passcode and press <strong>=</strong> to get in.</p>
+
+  <div class="card">
+    <h2>📲 Install in Sileo</h2>
+    <ol>
+      <li>Open <strong>Sileo → Sources → ⨁</strong></li>
+      <li>Add this repo URL:
+        <code>https://rocketkid300.github.io/veiled-repo/</code>
+      </li>
+      <li>Install <strong>Veiled</strong> — it also installs <strong>Veiled App</strong> (the Calculator) and resprings</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>⚙️ First-time setup</h2>
+    <ol>
+      <li>Open <strong>Calculator</strong> → set a passcode when asked</li>
+      <li><strong>Hide:</strong> long-press any Home Screen app → <strong>"Add to Veiled"</strong>, or tap <strong>+</strong> inside Veiled to hide several at once</li>
+      <li><strong>Open Veiled:</strong> type your passcode in the calculator and press <strong>=</strong></li>
+      <li>Tap a hidden app to open it, swipe left to unhide</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>✨ What's inside</h2>
+    <ul>
+      <li>A real, working calculator as the disguise</li>
+      <li>Hidden apps list with search and a Recent section</li>
+      <li>Private notes with pinning and an optional extra lock (Touch ID or passcode)</li>
+      <li>Encrypted backup &amp; restore of your hidden list and notes</li>
+      <li>Auto-Lock, and a duress code that opens an empty list</li>
+      <li>Close on Lock: Calculator and hidden apps close 5 seconds after the phone locks</li>
+      <li>Low-battery reminder to re-jailbreak, so a dead battery doesn't reveal your apps</li>
+    </ul>
+    <p style="font-size:.85rem; opacity:.8">If the phone reboots without the jailbreak, no tweak can run and hidden apps reappear until you jailbreak again in Dopamine. Tested on iPhone 7 Plus, iOS 15.8.3.</p>
+  </div>
+
+  <div class="card">
+    <h2>📥 Download the .deb directly</h2>
+    <p style="margin:.25rem 0 .6rem">Open with <strong>Filza</strong> to install, or run <code>dpkg -i</code>. Install both.</p>
+    <a class="btn" href="debs/com.rocketkid300.veiled.app_2.0.0_iphoneos-arm64.deb">🧮 Veiled App 2.0.0 (.deb)</a>
+    <br>
+    <a class="btn" href="debs/com.rocketkid300.veiled_2.0.0_iphoneos-arm64.deb">🔒 Veiled tweak 2.0.0 (.deb)</a>
+    <p style="margin:.8rem 0 0; font-size:.85rem; opacity:.8">
+      📸 Or scan a QR code with the Camera app:
+      <a href="qr/app.png">app</a> / <a href="qr/tweak.png">tweak</a> / <a href="qr/repo.png">repo</a>
+    </p>
+  </div>
+
+  <p style="opacity:.65; font-size:.85rem">Rocketkid300 · <a href="Packages">Packages</a> · <a href="Release">Release</a> · <a href="CHANGELOG.md">Changelog</a></p>
+</body>
+</html>

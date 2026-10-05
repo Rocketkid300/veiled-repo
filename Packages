@@ -1,0 +1,29 @@
+Package: com.rocketkid300.veiled
+Name: Veiled
+Description: Hide any app from your Home Screen. Long-press an app and pick "Add to Veiled" and its icon disappears from the Home Screen and App Library. Hidden apps live inside the Veiled app, which is disguised as a working Calculator: type your passcode and press = to get in. The tweak shows nothing on screen except an optional low-battery reminder to re-jailbreak, and closes hidden apps a few seconds after the phone locks.
+Maintainer: Rocketkid300 <rocketkid300@users.noreply.github.com>
+Author: Rocketkid300 <rocketkid300@users.noreply.github.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.rocketkid300.veiled.app (>= 2.0.0)
+Firmware: >= 15.0
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Installed-Size: 220
+Filename: debs/com.rocketkid300.veiled_2.0.0_iphoneos-arm64.deb
+Size: 35894
+MD5sum: 3605a499f6b6d1def5e46388218149f4
+
+Package: com.rocketkid300.veiled.app
+Name: Veiled App
+Description: The private side of Veiled, disguised as a working Calculator. Type your passcode and press = to open your hidden apps (tap to open, swipe to unhide, + to hide several at once), private notes with an optional extra lock, encrypted backup and restore, auto-lock and a duress code that opens an empty list.
+Maintainer: Rocketkid300 <rocketkid300@users.noreply.github.com>
+Author: Rocketkid300 <rocketkid300@users.noreply.github.com>
+Section: Apps
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Installed-Size: 1016
+Filename: debs/com.rocketkid300.veiled.app_2.0.0_iphoneos-arm64.deb
+Size: 617122
+MD5sum: 4a0bcb41de9f2a3296adc50d13a3e2fc
+
